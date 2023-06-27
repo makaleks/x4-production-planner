@@ -23,6 +23,12 @@ https://github.com/makaleks/x4-production-planner/assets/6663351/7ddcae08-c015-4
 
 ## Building
 
+UPD: CI artifacts can be found at latest
+[CI results](https://github.com/makaleks/x4-production-planner/actions), follow
+and download. They are not perfect as there is no MSVC target (windows native),
+and since I use Linux, for now you need to find a way to run this on windows on
+your own (I assume `mingw` or `msys` required, didn't tried)
+
 Until I add CI I assume you are able to build Rust code
 (keywords: `rustup` and `cargo run`), so here I put notes on static linking.
 
