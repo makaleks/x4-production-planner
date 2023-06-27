@@ -1,0 +1,24 @@
+[package]
+name = "libx4productionplaner"
+version = "0.1.0"
+edition = "2021"
+default-run = "x4productionplanner-democli"
+
+[[bin]]
+name = "x4productionplanner-democli"
+path = "src/main.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fluent-templates = "0.8"
+toml_edit = {version = "0.19", features = ["serde"]}
+serde = {version = "1", features = ["derive"]}
+roxmltree = "0.18"
+topological-sort = "0.2"
+lazy_static = "1"
+regex = "1.8"
+csv = "1.2"
+clap = {version = "4", features = ["derive"]}
+nom = "7"
+#self_cell = "0.10"

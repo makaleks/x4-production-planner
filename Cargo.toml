@@ -1,0 +1,6 @@
+[workspace]
+
+members = [
+    "libx4productionplanner",
+    "x4pp-web-ui",
+]
